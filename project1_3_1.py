@@ -47,8 +47,6 @@ def filter_english_reviews(reviews):
 # Scrape reviews from product pages
 def extract_reviews_amazon(product_url):
 
-
-    driver = webdriver.Chrome(service=service, options=options)
     options = Options()
     options.add_argument("--headless")
 
